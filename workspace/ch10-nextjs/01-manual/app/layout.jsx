@@ -2,11 +2,9 @@ export default function RootLayout({ children }) {
   return (
     <html>
       <head>
-        <title>Next.js App</title>
+        <title>Next.jsApp</title>
       </head>
-      <body>
-        { children }
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
